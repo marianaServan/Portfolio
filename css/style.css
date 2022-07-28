@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* General */
+
+.titulos {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+/* Header */
+
+header {
+    background-color: #46524d;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 3px 3px 3px #2d3752;
+}
+.navBurger {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 10px;
+    padding-top: 4px;
+    font-size: 40px;
+    text-align: center;
+    visibility: hidden;
+}
+.navBurger_icon {
+    padding: 3px;
+}
+.navFlexBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Main */
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    box-shadow: 3px 3px 3px #2d3752;
+}
+
+/* Sobre mi - Section */
+
+#sobre_mi {
+    background-color: #f8e1d8;
+    padding-top: 100px;
+}
+.sobreMi_img {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.sobreMi_img_style {
+    width: 50%;
+    border-radius: 70px;
+    box-shadow: 3px 3px 3px #2d3752;
+}
+.sobreMi_text {
+    padding-top: 2rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Proyectos destacados - Section */
+
+.proyect {
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f8e1d8; 
+    box-shadow: 3px 3px 3px #2d3752;
+}
+.proyect_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proyect_img_style {
+    width: 80%;
+    border-radius: 30px;
+}
+.proyect_description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Experiencia - Section */
+
+#experiencia {
+    background-color: #f8e1d8;
+}
+.experiencia_description {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.experiencia_description_tamaño {
+    width: 90%;
+}
+
+/* Footer */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.contact_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    padding-top: 2rem;
+}
+
+.contact_icon_redes {
+    font-size: 40px;
+    color: #46524d;
+}
+
+
+/* Medias queries */
+@media screen and (max-width: 767px) {
+    .navBurger {
+        visibility: visible;
+    }
+    .navFlexBar{
+        flex-direction: column;
+    }
+    .sobreMi_img_style {
+        width: 80%;
+    }
+    .sobreMi_text {
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .proyect_img_style {
+        width: 100%;
+    }
+    .proyect_description {
+        padding-top: 2rem;
+    }
+    .experiencia_description_tamaño {
+        width: 80%;
+    }
+    .contact_icon {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .sobreMi_img_style {
+        width: 60%;
+    }  
+    .proyect_img_style {
+        width: 105%;
+    } 
+}

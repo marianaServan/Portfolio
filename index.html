@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container navFlex">
+                <a class="navbar-brand" href="index.html" style="color: white"> 
+                    <h1>Mariana Serván</h1>
+                    <h6> FrontEnd Developer</h6>
+                </a>
+                <button class="navBurger" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list navBurger_icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navFlexBar">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="#sobre_mi"> Sobre mi </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="#proyectos_destacados"> Proyectos destacados </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="#contacto"> Contacto </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- section sobre mi -->
+        <section class="row section" id="sobre_mi">
+            <div  class="col-lg-6 col-md-6 col-sm-12 sobreMi_img">
+                <img src="images/perfil.jpg" class="sobreMi_img_style" alt="foto de perfil">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="sobreMi_text">
+                    <div>
+                        <h4> ¡Hola! Soy Mariana, </h4>
+                        <p>
+                            Desarrolladora Frontend y Licenciada en Matemática Aplicada. 
+                        </p>
+                        <p>
+                            Actualmente soy tutora de Desarrollo Web en Coder House y profesora, de Matemática A y Programación Lineal, en FIQ-UNL.
+                        </p>
+                        <p>
+                            Las herramientas que utilizo son: HTML, CSS, SCSS, JavaScript, React Js, Git, GitHub.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- section proyectos destacados -->
+        <section id="proyectos_destacados" class="section">
+            <h2 class="titulos"> Proyectos </h2>
+            <article class="proyect row">
+                <div class="col-lg-5 col-md-6 col-sm-12 proyect_img">
+                    <a href="https://marianaservan.github.io/Santulan_Carrito_JavaScript/" target="_blank">
+                        <img src="images/mockups_santulan.jpg" class="proyect_img_style" alt="Santulan en pantalla laptop">
+                    </a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="proyect_description"> 
+                        <h3> SANTULAN </h3>
+                        <h6> JavaScript </h6>
+                        <a href="https://marianaservan.github.io/Santulan_Carrito_JavaScript/" target="_blank"> Puedes verlo aquí </a>
+                        <a href="https://github.com/marianaServan/Santulan_Carrito_JavaScript" target="_blank"> Repositorio </a>
+                        <p> E-commerce. Página creada para Santulan Confecciones, con el objetivo de mostrar los productos disponibles a la venta.
+                            Además de ofrecer el servicio de confección de prendas a medida. Incluye un carrito de compras.
+                            Fue presentado como trabajo final del curso de JavaScript de Coder House.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="proyect row">
+                <div class="col-lg-5 col-md-6 col-sm-12 proyect_img">
+                    <a href="https://wondrous-profiterole-b2d510.netlify.app/" target="_blank">
+                        <img src="images/mockups_tueve.jpg" class="proyect_img_style" alt="Tueve en pantalla mobile">
+                    </a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="proyect_description"> 
+                        <h3> TUEVE </h3>
+                        <h6> React Js </h6>
+                        <a href="https://wondrous-profiterole-b2d510.netlify.app/" target="_blank"> Puedes verlo aquí </a>
+                        <a href="https://github.com/marianaServan/Tueve_app_react" target="_blank"> Repositorio </a>
+                        <p> E-commerce. Tueve es una web app ya desarrollada y en funcionamiento 
+                            que muestra todos los eventos de la ciudad de Santa Fe, permite hacer búsquedas por categoría, 
+                            fecha, región, etc.
+                            En este proyecto, trabajo final del curso de ReactJs de Coder House, se presenta una versión
+                            en la cual se implementa la venta de tickets, servicio que aún no se presta en la web app real.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="proyect row">
+                <div class="col-lg-5 col-md-6 col-sm-12 proyect_img">
+                    <a href="https://lautaro-lezchik.github.io/3D-Projects/" target="_blank">
+                        <img src="images/mockups_3d.jpg" class="proyect_img_style" alt="Tueve en pantalla mobile">
+                    </a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="proyect_description"> 
+                        <h3> 3D PROYECTS </h3>
+                        <h6> HTML y CSS </h6>
+                        <a href="https://lautaro-lezchik.github.io/3D-Projects/" target="_blank"> Puedes verlo aquí </a>
+                        <a href="https://github.com/lautaro-lezchik/3D-Projects" target="_blank"> Repositorio </a>
+                        <p> 3D Proyects es una empresa que diseña productos con impresoras 3D. Esta página fue creada en equipo como 
+                            parte del programa "Proyecto Real", del cual formé parte por pertenecer al top 10 de estudiantes del 
+                            curso de Desarrollo Web de Coder House. 
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contacto" class="section">
+        <h2 class="titulos"> Contacto </h2>
+        <div class="contact">
+            <h5> servan.mariana@gmail.com </h5>
+            <div class="contact_icon">
+                <a href="https://www.linkedin.com/in/mservan/" target=”_blank”><i class="bi bi-linkedin contact_icon_redes"></i></a>
+                <a href="https://github.com/marianaServan" target=”_blank”><i class="bi bi-github contact_icon_redes"></i></a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
