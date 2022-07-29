@@ -10,17 +10,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md">
-            <div class="container navFlex">
+            <div class="container-fluid navFlex">
                 <a class="navbar-brand" href="index.html" style="color: white"> 
                     <h1>Mariana Serván</h1>
                     <h6> FrontEnd Developer</h6>
                 </a>
-                <button class="navBurger" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navBurger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list navBurger_icon"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
@@ -78,8 +79,19 @@
                     <div class="proyect_description"> 
                         <h3> SANTULAN </h3>
                         <h6> JavaScript </h6>
-                        <a href="https://marianaservan.github.io/Santulan_Carrito_JavaScript/" target="_blank"> Puedes verlo aquí </a>
-                        <a href="https://github.com/marianaServan/Santulan_Carrito_JavaScript" target="_blank"> Repositorio </a>
+                        <div class="proyect_description_buttoms">
+                            <a href="https://marianaservan.github.io/Santulan_Carrito_JavaScript/" target="_blank"> 
+                                <button class="proyect_description_link">
+                                    Puedes verlo aquí 
+                                </button>
+                            </a>
+                            <a href="https://github.com/marianaServan/Santulan_Carrito_JavaScript" target="_blank">
+                                <button class="proyect_description_link">
+                                    Repositorio
+                                </button>
+                            </a>
+                        </div>
+                        
                         <p> E-commerce. Página creada para Santulan Confecciones, con el objetivo de mostrar los productos disponibles a la venta.
                             Además de ofrecer el servicio de confección de prendas a medida. Incluye un carrito de compras.
                             Fue presentado como trabajo final del curso de JavaScript de Coder House.
@@ -98,8 +110,18 @@
                     <div class="proyect_description"> 
                         <h3> TUEVE </h3>
                         <h6> React Js </h6>
-                        <a href="https://wondrous-profiterole-b2d510.netlify.app/" target="_blank"> Puedes verlo aquí </a>
-                        <a href="https://github.com/marianaServan/Tueve_app_react" target="_blank"> Repositorio </a>
+                        <div class="proyect_description_buttoms">
+                            <a href="https://wondrous-profiterole-b2d510.netlify.app/" target="_blank"> 
+                                <button class="proyect_description_link">
+                                    Puedes verlo aquí 
+                                </button>
+                            </a>
+                            <a href="https://github.com/marianaServan/Tueve_app_react" target="_blank">
+                                <button class="proyect_description_link">
+                                    Repositorio
+                                </button>
+                            </a>
+                        </div>
                         <p> E-commerce. Tueve es una web app ya desarrollada y en funcionamiento 
                             que muestra todos los eventos de la ciudad de Santa Fe, permite hacer búsquedas por categoría, 
                             fecha, región, etc.
@@ -120,8 +142,18 @@
                     <div class="proyect_description"> 
                         <h3> 3D PROYECTS </h3>
                         <h6> HTML y CSS </h6>
-                        <a href="https://lautaro-lezchik.github.io/3D-Projects/" target="_blank"> Puedes verlo aquí </a>
-                        <a href="https://github.com/lautaro-lezchik/3D-Projects" target="_blank"> Repositorio </a>
+                        <div class="proyect_description_buttoms">
+                            <a href="https://lautaro-lezchik.github.io/3D-Projects/" target="_blank"> 
+                                <button class="proyect_description_link">
+                                    Puedes verlo aquí 
+                                </button>
+                            </a>
+                            <a href="https://github.com/lautaro-lezchik/3D-Projects" target="_blank">
+                                <button class="proyect_description_link">
+                                    Repositorio
+                                </button>
+                            </a>
+                        </div>
                         <p> 3D Proyects es una empresa que diseña productos con impresoras 3D. Esta página fue creada en equipo como 
                             parte del programa "Proyecto Real", del cual formé parte por pertenecer al top 10 de estudiantes del 
                             curso de Desarrollo Web de Coder House. 
@@ -137,6 +169,7 @@
         <div class="contact">
             <h5> servan.mariana@gmail.com </h5>
             <div class="contact_icon">
+                <a href="https://api.whatsapp.com/send?phone=543435140871" target=”_blank”><i class="bi bi-whatsapp contact_icon_redes"></i></i></a>
                 <a href="https://www.linkedin.com/in/mservan/" target=”_blank”><i class="bi bi-linkedin contact_icon_redes"></i></a>
                 <a href="https://github.com/marianaServan" target=”_blank”><i class="bi bi-github contact_icon_redes"></i></a>
             </div>
@@ -144,5 +177,7 @@
         
     </footer>
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

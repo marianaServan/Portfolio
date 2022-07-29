@@ -9,7 +9,7 @@
 .titulos {
     text-align: center;
     font-size: 3rem;
-    padding-top: 2rem;
+    padding-top: 20px;
 }
 
 /* Header */
@@ -26,7 +26,7 @@ header {
     border: 1px solid white;
     border-radius: 10px;
     background-color: transparent;
-    margin: 10px;
+    /* margin: 10px; */
     padding-top: 4px;
     font-size: 40px;
     text-align: center;
@@ -47,14 +47,13 @@ header {
 .section {
     padding-top: 80px;
     padding-bottom: 30px;
-    box-shadow: 3px 3px 3px #2d3752;
 }
 
 /* Sobre mi - Section */
 
 #sobre_mi {
     background-color: #f8e1d8;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .sobreMi_img {
     padding-top: 2rem;
@@ -104,6 +103,22 @@ header {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.proyect_description_buttoms {
+    display: flex;    
+    margin-bottom: .5rem;
+}
+.proyect_description_link {
+    border-radius: .5rem;
+    background-color: #8c7168;
+    border-color: #46524d;
+    color: white;
+    padding: .3rem;
+    margin-right: 1rem;
+    height: 100%;
+}
+.proyect_description_link:hover {
+    background-color: #46524d;
+}
 
 /* Experiencia - Section */
 
@@ -140,10 +155,16 @@ header {
     font-size: 40px;
     color: #46524d;
 }
+.contact_icon_redes:hover {
+    color: #8c7168;
+}
 
 
 /* Medias queries */
 @media screen and (max-width: 767px) {
+    header {
+        padding-top: 1rem;
+    }
     .navBurger {
         visibility: visible;
     }
@@ -173,10 +194,16 @@ header {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding-top: 1rem;
+    }
     .sobreMi_img_style {
         width: 60%;
     }  
     .proyect_img_style {
         width: 105%;
     } 
+    .contact_icon {
+        width: 40%;
+    }
 }
