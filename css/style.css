@@ -18,7 +18,7 @@ header {
     background-color: #46524d;
     position: fixed;
     z-index: 100;
-    width: 100%;
+    width: 100vw;
     box-shadow: 3px 3px 3px #2d3752;
 }
 .navBurger {
@@ -26,7 +26,7 @@ header {
     border: 1px solid white;
     border-radius: 10px;
     background-color: transparent;
-    /* margin: 10px; */
+    margin: 10px;
     padding-top: 4px;
     font-size: 40px;
     text-align: center;
@@ -34,6 +34,9 @@ header {
 }
 .navBurger_icon {
     padding: 3px;
+}
+.navFlex {
+    margin: 0rem 1rem;
 }
 .navFlexBar {
     width: 100%;
@@ -47,6 +50,7 @@ header {
 .section {
     padding-top: 80px;
     padding-bottom: 30px;
+    margin: 0%;
 }
 
 /* Sobre mi - Section */
